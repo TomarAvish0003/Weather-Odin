@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat:wght@400;500&display=swap');
+
+
+:root{
+    --primary-color:#5598fd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.website-conatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f1f1f1;
+    padding: 20px 10px;
+}
+
+.header-right li{
+    padding:0 10px;
+}
+
+.right-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.bar{
+    padding: 0 5px ;
+    margin: 10px;
+}
+
+.weather-container{
+    display: flex;
+}
+
+.card-main{
+    display: flex;
+    flex-flow: row wrap;
+}
