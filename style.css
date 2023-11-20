@@ -10,9 +10,9 @@
 }
 
 .dark-mode{
-    --primary-color:#0f0f0f;
-    --secondary-color:#005b41;
-    --tertiary-color:#008170;
+    --primary-color:#121212;
+    --secondary-color:#1f1b24;
+    --tertiary-color:#332940;
     --text-color:aliceblue;
 }
 
@@ -117,6 +117,11 @@ ul{
     padding: 30px 70px;
     margin: 20px;
 }    
+
+.city{
+    padding: 10px 0;
+    font-size: 24px;
+}
 
 .temperature{
     display: flex;
