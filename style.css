@@ -33,31 +33,12 @@ body{
     flex-direction: column;
 }
 
-button{
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.logo{
-    height: 50px;
-    width: 50px;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:var(--tertiary-color);
-    padding: 20px 20px;
-}
-
-#unit{
-    cursor: pointer;
-}
-
-#mode-icon{
-    cursor: pointer;
+    background-color:#f1f1f1;
+    padding: 20px 10px;
 }
 
 .header-right li{
@@ -82,15 +63,6 @@ ul{
     padding: 40px;
 }
 
-#query{
-    width: 40vw;
-    height: 4vh;
-    border-radius: 10px;
-    font-size: 14px;
-    padding: 0 10px;
-    color: #0f0f0f;
-}
-
 .bar{
     width: 8vw;
     height: 4vh;
@@ -104,29 +76,6 @@ ul{
 
 .weather-container{
     display: flex;
-}
-
-#icon{
-    width: 150px;
-    height: 150px;
-}
-
-.main-weather{
-    display: flex;
-    flex-direction: column;
-    padding: 30px 70px;
-    margin: 20px;
-}    
-
-.city{
-    padding: 10px 0;
-    font-size: 24px;
-}
-
-.temperature{
-    display: flex;
-    font-size: 48px;
-    padding: 10px;
 }
 
 .card-main{
